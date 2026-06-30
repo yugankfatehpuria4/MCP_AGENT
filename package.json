@@ -1,0 +1,24 @@
+{
+  "name": "mcp_agent",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsx src/index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^26.0.1"
+  },
+  "dependencies": {
+    "@inngest/agent-kit": "^0.13.2",
+    "dotenv": "^17.4.2",
+    "inngest": "^3.54.2",
+    "tsx": "^4.22.4",
+    "typescript": "^6.0.3",
+    "zod": "^4.4.3"
+  }
+}
